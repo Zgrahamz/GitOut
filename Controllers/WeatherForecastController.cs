@@ -29,5 +29,11 @@ namespace GitOut.Controllers
             })
             .ToArray();
         }
+
+        [HttpGet("Zach Graham")]
+        public IActionResult GetZachGraham()
+        {
+            return Ok("Zach Graham");
+        }
     }
 }
